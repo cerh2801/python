@@ -6,9 +6,6 @@ def main():
         print('Impar')
 
 def par(n):
-    if n%2!=0:
-        return False
-    else:
-        return True
+    return True if n %2 == 0 else False
 
 main()
